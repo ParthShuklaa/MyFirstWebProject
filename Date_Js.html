@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+</head>
+
+<body>
+    <p id="RandomValue"> Displaying Date using Javascript </p>
+
+    <script>
+        const d = new Date()
+        const Weekday = ["Sunday", "Monday", "Tuesday", "Wednesay", "Thursday", "Friday", "saturday"]
+        document.getElementById("RandomValue").innerHTML = Weekday[d.getDay];
+    </script>
+
+
+</body>
+
+</html>
