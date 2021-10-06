@@ -1,0 +1,27 @@
+<html>
+
+<Head>
+    <title> Js Implementation </title>
+</Head>
+
+<Body>
+    <p id="text1">Implementing External Javascript </p>
+    <h1>Default text </h1>
+
+    <!--
+
+        <button type="submit" onclick="Multipy()"> Click to Call External Script </button>
+
+
+    -->
+
+    <script>
+        function Multipy(x, y) {
+            return x * y;
+        }
+        document.getElementById("text1").innerHTML = Multipy(5, 5);
+    </script>
+
+</Body>
+
+</html>
