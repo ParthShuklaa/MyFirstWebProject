@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1> Welcome to Login Form for Online hackathon 2021</h1>
+    <form action="https://www.microsoft.com/en-in" method="POST">
+
+
+        <p>
+            <label id="nameLbl">Enter Your name </label>
+            <input id="nameinp" inputmode="text" onfocus="this.value='' " value="Your name in A_Z" type="text">
+        </p>
+        <p>
+            <label id="Emaillbl ">Enter Your Email</label>
+            <input id="EmailInp" inputmode="email" type="text">
+        </p>
+        <p>
+            <label id="Indian_Radio_Lbl">Are you and Indian Citizen </label>
+            <input type="radio" id="Nationality_Radio_Btn" onkeypress="">
+        </p>
+
+        <p>
+
+        </p>
+
+        <p>
+            <label id="MobileLbl">Enter your Mobile no</label>
+            <Input id="MobileInp" type="text" inputmode="numeric"></Input>
+        </p>
+
+        <p>
+            <label id="passwrdlbl">Enter Your Password</label>
+            <input id="passwordInp" type="password">
+            <label id="verifyPassLbl">Enter again </label>
+            <input id="varifyPassInp" type="password ">
+        </p>
+        <p>
+            <input class="button " id="SubmitBtn " pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,} type=" submit " value=" Click Here to Submit ">
+            <input class="button " id="Reset_Btn " type="reset " value=" Reset Form ">
+        </p>
+
+        <div> Info</div>
+        <h3>Password must contain the following:</h3>
+        <p id="letter " class="invalid ">A <b>lowercase</b> letter</p>
+        <p id="capital " class="invalid ">A <b>capital (uppercase)</b> letter</p>
+        <p id="number " class="invalid ">A <b>number</b></p>
+        <p id="length " class="invalid ">Minimum <b>8 characters</b></p>
+    </form>
+    <style>
+        .button {
+            background-color: #04AA6D;
+            color: darkmagenta;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border-radius: 20px;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+            opacity: 0.9;
+        }
+        
+        button:hover {
+            opacity: 0.5;
+            border-radius: 15px;
+        }
+        
+        input[type=text],
+        input[type=password],
+        input[type=email] {
+            width: 100%;
+            padding: 15px;
+            margin: 5px 0 22px 0;
+            display: inline-block;
+            border: none;
+            border-radius: 15px;
+            background: #f1f1f1;
+        }
+    </style>
+
+</body>
+
+</html>
